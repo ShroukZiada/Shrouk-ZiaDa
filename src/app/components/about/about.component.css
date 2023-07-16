@@ -1,0 +1,57 @@
+#About {
+    height: 80vh;
+}
+
+.who__me::before {
+    content: '';
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border: 8px solid;
+    border-color: #5eead4 #5eead4 transparent transparent;
+    transform: rotate(45deg);
+    left: -27px;
+    top: 7px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.WHO {
+    margin-left: -22px;
+}
+
+.sub__about__me {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(171, 171, 171);
+}
+
+#btn a {
+    text-decoration: none;
+}
+
+#btn button {
+    --main-focus: #2d8cf0;
+    --font-color: #dedede;
+    --bg-color-sub: #222;
+    --bg-color: #323232;
+    --main-color: #dedede;
+    position: relative;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.button .button__text {
+    transform: translateX(21px);
+    color: var(--font-color);
+    font-weight: 600;
+}
