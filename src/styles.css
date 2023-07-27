@@ -1,270 +1,270 @@
-                     ::-webkit-scrollbar-thumb {
-                        background: #5eead4 !important;
-                    }
-
-                     ::-webkit-scrollbar {
-                        height: 4px;
-                        width: 4px;
-                    }
-
-                     ::-webkit-scrollbar-track {
-                        background-color: rgba(0, 0, 0, 0.26) !important;
-                    }
-
-                    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
-                    @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat+Alternates&family=Signika+Negative:wght@500&family=Ysabeau+Office:wght@300&display=swap');
-                    body {
-                        color: #ebe9e9;
-                        box-sizing: border-box;
-                        background-color: rgb(15 23 42/var(--tw-bg-opacity));
-                    }
-
-                    .font-sans {
-                        font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                        font-feature-settings: "ss03", "cv02", "cv11";
-                    }
-
-                     :root {
-                        --main-txt-Color: #ababab;
-                        --tw-bg-opacity: 1;
-                        --font-inter: "__inter_20b187", "__inter_Fallback_20b187";
-                    }
-
-                    a {
-                        text-decoration: none;
-                    }
-
-                    p {
-                        color: var(--main-txt-Color);
-                        font-family: 'Signika Negative', sans-serif;
-                    }
-
-                    .arr {
-                        color: #5eead4;
-                    }
-
-                    .nfC {
-                        background-color: var( --sec-bg-Color);
-                    }
-
-                    .threads__logo {
-                        width: 25px;
-                        margin-left: -3px;
-                    }
-
-                    .outlook__logo {
-                        width: 40px;
-                        margin-left: -7px;
-                    }
-
-                    .facebook__logo {
-                        color: #3b5998;
-                    }
-
-                    .linkedin__logo {
-                        color: #0082ca;
-                    }
-
-                    .github__logo {
-                        color: #ffff;
-                    }
-
-                    .gmail__logo {
-                        color: #BB001B;
-                    }
-
-                    .cv__logo {
-                        color: ;
-                    }
-
-                    .logo__ {
-                        width: 70px;
-                    }
-
-                    .caption-top h2 {
-                        display: inline-block;
-                        color: white;
-                        font-family: 'Righteous', serif;
-                        font-size: 12em;
-                        text-shadow: .03em .03em 0#5eead4;
-                    }
-
-                    .special-heading+p {
-                        margin: -30px 0 0;
-                        font-size: 20px;
-                        text-align: center;
-                        color: #ffff;
-                        font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                    }
-
-                    .one__skill {
-                        cursor: pointer;
-                        border: 1px solid;
-                        border-radius: 23px;
-                        transition: all 500ms ease-in-out;
-                        -webkit-transition: all 500ms ease-in-out;
-                        -moz-transition: all 500ms ease-in-out;
-                        -ms-transition: all 500ms ease-in-out;
-                        -o-transition: all 500ms ease-in-out;
-                    }
-
-                    .one__skill:hover {
-                        margin-top: -20px;
-                    }
-
-                    .html,
-                    .git {
-                        border-color: #F4511E;
-                        color: #F4511E;
-                    }
-
-                    .css {
-                        border-color: #2D569B;
-                        color: #2D569B;
-                    }
-
-                    .js,
-                    .ds {
-                        border-color: #F7DF1E;
-                        color: #F7DF1E;
-                    }
-
-                    .jq,
-                    .C__plus {
-                        border-color: #409FED;
-                        color: #409FED;
-                    }
-
-                    .bs {
-                        border-color: #673AB7;
-                        color: #673AB7;
-                    }
-
-                    .s {
-                        border-color: #D587AE;
-                        color: #D587AE;
-                    }
-
-                    .s-w {
-                        width: 47%;
-                    }
-
-                    .ts,
-                    .Al {
-                        border-color: #007ACD;
-                        color: #007ACD;
-                    }
-
-                    .ts-w {
-                        width: 36%;
-                    }
-
-                    .angular {
-                        border-color: #DD2C00;
-                        color: #DD2C00;
-                    }
-
-                    .am {
-                        border-color: #325476;
-                        color: #325476;
-                    }
-
-                    .tc {
-                        border-color: #00A0BE;
-                        color: #00A0BE;
-                    }
-
-                    .gh {
-                        border-color: #000000;
-                        color: #F3F9FB;
-                    }
-
-                    .cp {
-                        cursor: pointer;
-                    }
-
-                    .skills_title {
-                        color: #5eead4;
-                    }
-
-                    .card-footer p {
-                        color: rgb(226 232 240);
-                        opacity: 0.55;
-                        font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    }
-
-                    .gradient-border {
-                        box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
-                        --borderWidth: 3px;
-                        background: #0F172A;
-                        position: relative;
-                        border-radius: var(--borderWidth);
-                        margin-bottom: 30px;
-                        transition: all 600ms linear;
-                        -webkit-transition: all 600ms linear;
-                        -moz-transition: all 600ms linear;
-                        -ms-transition: all 600ms linear;
-                        -o-transition: all 600ms linear;
-                    }
-
-                    .gradient-border:after {
-                        content: '';
-                        position: absolute;
-                        top: calc(-1 * var(--borderWidth));
-                        left: calc(-1 * var(--borderWidth));
-                        height: calc(100% + var(--borderWidth) * 2);
-                        width: calc(100% + var(--borderWidth) * 2);
-                        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-                        border-radius: calc(2 * var(--borderWidth));
-                        z-index: -1;
-                        animation: animatedgradient 3s ease alternate infinite;
-                        background-size: 300% 300%;
-                    }
-
-                    @keyframes animatedgradient {
-                        0% {
-                            background-position: 0% 50%;
+                         ::-webkit-scrollbar-thumb {
+                            background: #5eead4 !important;
                         }
-                        50% {
-                            background-position: 100% 50%;
-                        }
-                        100% {
-                            background-position: 0% 50%;
-                        }
-                    }
 
-                    @media (max-width: 1200px) {
+                         ::-webkit-scrollbar {
+                            height: 4px;
+                            width: 4px;
+                        }
+
+                         ::-webkit-scrollbar-track {
+                            background-color: rgba(0, 0, 0, 0.26) !important;
+                        }
+
+                        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+                        @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat+Alternates&family=Signika+Negative:wght@500&family=Ysabeau+Office:wght@300&display=swap');
+                        body {
+                            color: #ebe9e9;
+                            box-sizing: border-box;
+                            background-color: rgb(15 23 42/var(--tw-bg-opacity));
+                        }
+
+                        .font-sans {
+                            font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                            font-feature-settings: "ss03", "cv02", "cv11";
+                        }
+
+                         :root {
+                            --main-txt-Color: #ababab;
+                            --tw-bg-opacity: 1;
+                            --font-inter: "__inter_20b187", "__inter_Fallback_20b187";
+                        }
+
+                        a {
+                            text-decoration: none;
+                        }
+
+                        p {
+                            color: var(--main-txt-Color);
+                            font-family: 'Signika Negative', sans-serif;
+                        }
+
+                        .arr {
+                            color: #5eead4;
+                        }
+
+                        .nfC {
+                            background-color: var( --sec-bg-Color);
+                        }
+
+                        .threads__logo {
+                            width: 25px;
+                            margin-left: -3px;
+                        }
+
+                        .outlook__logo {
+                            width: 40px;
+                            margin-left: -7px;
+                        }
+
+                        .facebook__logo {
+                            color: #3b5998;
+                        }
+
+                        .linkedin__logo {
+                            color: #0082ca;
+                        }
+
+                        .github__logo {
+                            color: #ffff;
+                        }
+
+                        .gmail__logo {
+                            color: #BB001B;
+                        }
+
+                        .cv__logo {
+                            color: ;
+                        }
+
+                        .logo__ {
+                            width: 70px;
+                        }
+
                         .caption-top h2 {
-                            font-size: 10em;
+                            display: inline-block;
+                            color: white;
+                            font-family: 'Righteous', serif;
+                            font-size: 12em;
+                            text-shadow: .03em .03em 0#5eead4;
                         }
-                    }
 
-                    @media (max-width: 1000px) {
-                        .caption-top h2 {
-                            font-size: 9em;
+                        .special-heading+p {
+                            margin: -30px 0 0;
+                            font-size: 20px;
+                            text-align: center;
+                            color: #ffff;
+                            font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
                         }
-                    }
 
-                    @media (max-width: 999px) {
-                        .caption-top h2 {
-                            font-size: 8em;
+                        .one__skill {
+                            cursor: pointer;
+                            border: 1px solid;
+                            border-radius: 23px;
+                            transition: all 500ms ease-in-out;
+                            -webkit-transition: all 500ms ease-in-out;
+                            -moz-transition: all 500ms ease-in-out;
+                            -ms-transition: all 500ms ease-in-out;
+                            -o-transition: all 500ms ease-in-out;
                         }
-                    }
 
-                    @media (max-width: 760px) {
-                        .caption-top h2 {
-                            font-size: 3em;
+                        .one__skill:hover {
+                            margin-top: -20px;
                         }
-                    }
 
-                    @media (max-width: 1399.98px) {
-                        .home_h1 {
-                            font-size: 2rem !important;
+                        .html,
+                        .git {
+                            border-color: #F4511E;
+                            color: #F4511E;
                         }
-                    }
 
-                    @media (max-width: 1780px) {
-                        .home_h1 {
-                            font-size: 2rem !important;
+                        .css {
+                            border-color: #2D569B;
+                            color: #2D569B;
                         }
-                    }
+
+                        .js,
+                        .ds {
+                            border-color: #F7DF1E;
+                            color: #F7DF1E;
+                        }
+
+                        .jq,
+                        .C__plus {
+                            border-color: #409FED;
+                            color: #409FED;
+                        }
+
+                        .bs {
+                            border-color: #673AB7;
+                            color: #673AB7;
+                        }
+
+                        .s {
+                            border-color: #D587AE;
+                            color: #D587AE;
+                        }
+
+                        .s-w {
+                            width: 47%;
+                        }
+
+                        .ts,
+                        .Al {
+                            border-color: #007ACD;
+                            color: #007ACD;
+                        }
+
+                        .ts-w {
+                            width: 36%;
+                        }
+
+                        .angular {
+                            border-color: #DD2C00;
+                            color: #DD2C00;
+                        }
+
+                        .am {
+                            border-color: #325476;
+                            color: #325476;
+                        }
+
+                        .tc {
+                            border-color: #00A0BE;
+                            color: #00A0BE;
+                        }
+
+                        .gh {
+                            border-color: #000000;
+                            color: #F3F9FB;
+                        }
+
+                        .cp {
+                            cursor: pointer;
+                        }
+
+                        .skills_title {
+                            color: #5eead4;
+                        }
+
+                        .card-footer p {
+                            color: rgb(226 232 240);
+                            opacity: 0.55;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        }
+
+                        .gradient-border {
+                            box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+                            --borderWidth: 3px;
+                            background: #0F172A;
+                            position: relative;
+                            border-radius: var(--borderWidth);
+                            margin-bottom: 30px;
+                            transition: all 600ms linear;
+                            -webkit-transition: all 600ms linear;
+                            -moz-transition: all 600ms linear;
+                            -ms-transition: all 600ms linear;
+                            -o-transition: all 600ms linear;
+                        }
+
+                        .gradient-border:after {
+                            content: '';
+                            position: absolute;
+                            top: calc(-1 * var(--borderWidth));
+                            left: calc(-1 * var(--borderWidth));
+                            height: calc(100% + var(--borderWidth) * 2);
+                            width: calc(100% + var(--borderWidth) * 2);
+                            background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+                            border-radius: calc(2 * var(--borderWidth));
+                            z-index: -1;
+                            animation: animatedgradient 3s ease alternate infinite;
+                            background-size: 300% 300%;
+                        }
+
+                        @keyframes animatedgradient {
+                            0% {
+                                background-position: 0% 50%;
+                            }
+                            50% {
+                                background-position: 100% 50%;
+                            }
+                            100% {
+                                background-position: 0% 50%;
+                            }
+                        }
+
+                        @media (max-width: 1200px) {
+                            .caption-top h2 {
+                                font-size: 10em;
+                            }
+                        }
+
+                        @media (max-width: 1000px) {
+                            .caption-top h2 {
+                                font-size: 9em;
+                            }
+                        }
+
+                        @media (max-width: 999px) {
+                            .caption-top h2 {
+                                font-size: 8em;
+                            }
+                        }
+
+                        @media (max-width: 760px) {
+                            .caption-top h2 {
+                                font-size: 3em;
+                            }
+                        }
+
+                        @media (max-width: 1399.98px) {
+                            .home_h1 {
+                                font-size: 2rem !important;
+                            }
+                        }
+
+                        @media (max-width: 1780px) {
+                            .home_h1 {
+                                font-size: 2rem !important;
+                            }
+                        }
